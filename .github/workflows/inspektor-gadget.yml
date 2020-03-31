@@ -65,8 +65,8 @@ jobs:
     - name: Upload inspektor-gadget artifact
       uses: actions/upload-artifact@v1
       with:
-        name: inspektor-gadget
-        path: inspektor-gadget.tar.gz
+        name: inspektor-gadget.zip
+        path: out/inspektor-gadget/inspektor-gadget
 
     - name: Create Release
       id: create_release
